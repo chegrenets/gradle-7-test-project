@@ -30,6 +30,7 @@ dependencies {
     implementation 'org.apache.camel:camel-spring:3.14.0' 
     implementation 'log4j:log4j:1.2.17'
     implementation 'org.apache.zookeeper:zookeeper:3.3.0'
+    implementation 'com.esotericsoftware.kryo:kryo:2.22'
 }
 
 application {
