@@ -32,6 +32,8 @@ dependencies {
     implementation 'org.apache.zookeeper:zookeeper:3.3.0'
     implementation 'com.esotericsoftware.kryo:kryo:2.22'
     implementation 'io.vertx:vertx-core:4.4.5'
+    implementation 'org.apache.avro:avro:1.11.3'
+
 }
 
 application {
