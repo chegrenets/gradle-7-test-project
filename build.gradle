@@ -32,7 +32,8 @@ dependencies {
     implementation 'org.apache.zookeeper:zookeeper:3.3.0'
     implementation 'com.esotericsoftware.kryo:kryo:2.22'
     implementation 'io.vertx:vertx-core:4.4.5'
-    implementation 'org.apache.avro:avro:1.11.3'
+    implementation 'org.apache.avro:avro:1.11.3' 
+    implementation 'org.apache.flink:flink-streaming-java:1.17.1' // transitive gives org.xerial.snappy:snappy-java:1.1.8.3
 
 }
 
