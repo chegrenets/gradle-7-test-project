@@ -38,7 +38,7 @@ dependencies {
     implementation 'com.esotericsoftware.kryo:kryo:2.22'
     implementation 'io.vertx:vertx-core:4.4.5'
     implementation 'org.apache.avro:avro:1.11.3' 
-    implementation 'org.apache.flink:flink-streaming-java:1.17.1' // transitive gives org.xerial.snappy:snappy-java:1.1.8.3
+    implementation 'org.apache.flink:flink-streaming-java:1.18.0' // transitive gives org.xerial.snappy:snappy-java:1.1.8.3
 
     implementation 'com.refinitiv.ema:ema:3.7.1.0' // transitive gives org.json:json and commons-codec
 
